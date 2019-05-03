@@ -42,14 +42,6 @@ class Shoe
     @condition
   end
   
-  def turn_page=(num)
-    @turn_page = num
-  end
-  
-  def turn_page
-    @turn_page
-  end
-  
   def cobble
      puts "Your shoe is as good as new!"
      @condition = "new"
