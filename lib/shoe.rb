@@ -18,16 +18,28 @@ class Shoe
     @color
   end
   
+  def size=(num)
+    @size = num
+  end
+  
   def size
-    
+    @size
+  end
+  
+  def material=(mat)
+    @material = mat    
   end
   
   def material
-    
+    @material
   end
 
+  def condition=(condition)
+      @condition = condition
+  end
+  
   def condition
-    
+    @condition
   end
   
   def cobble
@@ -35,7 +47,3 @@ class Shoe
   end
   
 end
-
-
-
-rspec ./spec/02_shoe_spec.rb:43 # Shoe #cobble makes the shoe's cond
