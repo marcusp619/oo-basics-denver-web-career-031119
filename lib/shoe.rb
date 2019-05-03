@@ -42,6 +42,14 @@ class Shoe
     @condition
   end
   
+  def turn_page=(num)
+    @turn_page = num
+  end
+  
+  def turn_page
+    @turn_page
+  end
+  
   def cobble
     puts "The shoe has been repaired"
   end
